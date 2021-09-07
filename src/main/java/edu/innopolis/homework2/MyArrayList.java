@@ -68,7 +68,7 @@ public class MyArrayList<T> {
 
         @Override
         public boolean hasNext() {
-            return current < my_array.currentIndex;
+            return current < MyArrayList.this.currentIndex;
         }
 
         @Override
