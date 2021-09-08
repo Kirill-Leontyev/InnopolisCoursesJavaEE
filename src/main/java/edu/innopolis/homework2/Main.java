@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         MyArrayList<Integer> array;
         array = new MyArrayList<>(Integer.class, 3);
-        Iterator iterator = array.iterator();
+        MyArrayList.MyIterator iterator = array.new MyIterator();
         array.add(45);
         array.add(56);
         array.add(12);
