@@ -2,6 +2,7 @@ package edu.innopolis.homework2;
 
 import java.lang.reflect.Array;
 import java.util.Iterator;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 public class MyArrayList<T> {
