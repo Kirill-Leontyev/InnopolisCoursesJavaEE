@@ -1,4 +1,4 @@
-package homework5;
+package edu.innopolis.homework5;
 
 public interface UsersService {
     void signUp(String email, String password) throws BadEmailException, BadPasswordException;

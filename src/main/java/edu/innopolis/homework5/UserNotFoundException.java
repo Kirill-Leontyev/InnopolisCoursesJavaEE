@@ -1,4 +1,4 @@
-package homework5;
+package edu.innopolis.homework5;
 
 import java.util.NoSuchElementException;
 

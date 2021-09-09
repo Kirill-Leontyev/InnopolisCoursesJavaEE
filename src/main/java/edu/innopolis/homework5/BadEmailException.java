@@ -1,4 +1,4 @@
-package homework5;
+package edu.innopolis.homework5;
 
 public class BadEmailException extends IllegalArgumentException{
     @Override
